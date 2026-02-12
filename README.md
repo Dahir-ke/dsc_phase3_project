@@ -66,7 +66,7 @@ Three Random Forest variants were compared:
 
 **Hyperparameter tuning:** `RandomizedSearchCV` on a 30% subset, then final model trained on full dataset.  
 
-✅ **Final model recommendation:** **Random Forest with `class_weight='balanced'`** – it balances strong overall performance with a **66% recall** of wells that need repair (compared to 5% in the base model).
+**Final model recommendation:** **Random Forest with `class_weight='balanced'`** – it balances strong overall performance with a **66% recall** of wells that need repair (compared to 5% in the base model).
 
 ### 4. Feature Importance
 
@@ -115,5 +115,5 @@ Based on the model’s insights, we propose three immediate, no‑regret moves:
 
 1. **Clone the repository**  
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Dahir-ke/dsc_phase3_project.git
+   cd <repository-files.csv>
